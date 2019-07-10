@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:64:"D:\BaiPiao-PHP\public/../application/index\view\index\index.html";i:1562751651;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -18,7 +19,7 @@
                 <div class="card-header">管理员登陆</div>
                 <div class="card-body">
 
-                    <form method="POST" action="{:url('index/Index/home')}">
+                    <form method="POST" action="<?php echo url('index/Index/home'); ?>">
                         <div class="form-group">
                             <label for="usr">用户名:</label>
                             <input type="text" class="form-control" id="rootusr" name="rootusr">
