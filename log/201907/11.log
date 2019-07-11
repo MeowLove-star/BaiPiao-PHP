@@ -1058,3 +1058,17 @@
 [ 2019-07-11T15:34:04+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/api/v1/Login
 [运行时间：0.025368s] [吞吐率：39.42req/s] [内存消耗：881.41kb] [文件加载：32]
 [ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-11T17:06:21+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index/index/home.html
+[运行时间：0.033879s] [吞吐率：29.52req/s] [内存消耗：1,435.87kb] [文件加载：38]
+[ error ] [0]模板文件不存在:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\home.html[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\thinkphp\library\think\view\driver\Think.php:82]
+[ error ] template not exists:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\home.html
+---------------------------------------------------------------
+[ 2019-07-11T17:06:27+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index/index/home.html
+[运行时间：0.024214s] [吞吐率：41.30req/s] [内存消耗：1,435.87kb] [文件加载：38]
+[ error ] [0]模板文件不存在:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\home.html[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\thinkphp\library\think\view\driver\Think.php:82]
+[ error ] template not exists:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\home.html
+---------------------------------------------------------------
+[ 2019-07-11T17:06:57+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/login/home
+[运行时间：0.041926s] [吞吐率：23.85req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ error ] method not exists:app\admin\controller\Login->home()
