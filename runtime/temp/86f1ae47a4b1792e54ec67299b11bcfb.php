@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562828156;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562828656;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin//bootstrap-4.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin//css/all.css">
-    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin//css/index.css">
+    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/css/all.css">
+    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/css/index.css">
     <title>baipiao</title>
 </head>
 
@@ -16,7 +16,7 @@
     <div class="ui_body">
         <div class="container col-md-6 login_card">
             <div class="card">
-                <div class="card-header">管理员登陆/BaiPiao-PHP/public/static/admin/</div>
+                <div class="card-header">管理员登陆</div>
                 <div class="card-body">
 
                     <form method="POST" action="<?php echo url('index/Index/home'); ?>">
@@ -36,9 +36,9 @@
         </div>
     </div>
 
-    <script src="/BaiPiao-PHP/public/static/admin//js/jquery-3.4.1.min.js"></script>
-    <script src="/BaiPiao-PHP/public/static/admin//bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-    <script src="/BaiPiao-PHP/public/static/admin//js/login.js"></script>
+    <script src="/BaiPiao-PHP/public/static/admin/js/jquery-3.4.1.min.js"></script>
+    <script src="/BaiPiao-PHP/public/static/admin/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="/BaiPiao-PHP/public/static/admin/js/login.js"></script>
 </body>
 
 </html>

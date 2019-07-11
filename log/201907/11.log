@@ -1054,3 +1054,7 @@
 [运行时间：0.018925s] [吞吐率：52.84req/s] [内存消耗：1,148.05kb] [文件加载：38]
 [ error ] [0]模板文件不存在:E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html[E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\view\driver\Think.php:82]
 [ error ] template not exists:E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html
+---------------------------------------------------------------
+[ 2019-07-11T15:34:04+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/api/v1/Login
+[运行时间：0.025368s] [吞吐率：39.42req/s] [内存消耗：881.41kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1

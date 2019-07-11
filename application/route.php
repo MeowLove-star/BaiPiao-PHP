@@ -16,5 +16,6 @@ use think\Route;
 
 //http://localhost/BaiPiao-PHP/public/api/v1/Login   (访问方法)
  Route::post('api/:version/Login','api/:version.Login/login');
+ Route::get('api/:version/Login','api/:version.Login/login');
 
 

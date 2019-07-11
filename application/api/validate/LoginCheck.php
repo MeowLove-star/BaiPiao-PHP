@@ -2,11 +2,9 @@
 namespace app\api\validate;
 use app\api\validate\BaseValidate;
 
-class AddressNew extends BaseValidate{
+class LoginCheck extends BaseValidate{
     protected $rule=[
-        
-    ];
-    protected $message=[
-        
+        'userName'=>'require',
+        'userPassword'=>'require',
     ];
 }
