@@ -9,13 +9,12 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-return [
-    '__pattern__' => [
-        'name' => '\w+',
-    ],
-    '[hello]'     => [
-        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-        ':name' => ['index/hello', ['method' => 'post']],
-    ],
+use think\Route;
+// restful 路由列子
+// Route::get('api/:version/Category','api/:version.Category/getAllCategory');
 
-];
+
+//http://localhost/BaiPiao-PHP/public/index.php/api/v1/Login   (访问方法)
+ Route::post('api/:version/Login','api/:version.Login/login');
+
+
