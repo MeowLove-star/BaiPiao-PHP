@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562828656;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562834995;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/bootstrap-4.1.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/css/all.css">
-    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/css/index.css">
+    <link rel="stylesheet" href="/BaiPiao-PHP/public/static/admin/css/login.css">
     <title>baipiao</title>
 </head>
 
