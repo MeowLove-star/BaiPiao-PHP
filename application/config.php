@@ -140,12 +140,13 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
-        '__PUBLIC__'=>'BaiPiao-PHP/public/static'
+        
     ],
 
-    // 视图输出字符串内容替换
-    'view_replace_str'       => [
-       
+    
+   // 视图输出字符串内容替换
+   'view_replace_str'       => [
+        '__static__' => '/BaiPiao-PHP/public/static/admin',
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
