@@ -1,0 +1,1047 @@
+---------------------------------------------------------------
+[ 2019-07-11T09:57:16+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php
+[运行时间：0.108898s] [吞吐率：9.18req/s] [内存消耗：1,339.05kb] [文件加载：41]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ebb79875-6ab8-41aa-b708-6ef0d862cdf4',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\BaiPiao-PHP\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\BaiPiao-PHP\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:02:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.037482s] [吞吐率：26.68req/s] [内存消耗：989.88kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-4.1.3-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:02:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/js/jquery-3.4.1.min.js
+[运行时间：0.031098s] [吞吐率：32.16req/s] [内存消耗：989.58kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-3.4.1.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:02:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/css/all.css
+[运行时间：0.040465s] [吞吐率：24.71req/s] [内存消耗：989.45kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'all.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:02:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/css/index.css
+[运行时间：0.040976s] [吞吐率：24.40req/s] [内存消耗：989.48kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'index.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:02:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/bootstrap-4.1.3-dist/js/bootstrap.min.js
+[运行时间：0.050208s] [吞吐率：19.92req/s] [内存消耗：989.78kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-4.1.3-dist',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:02:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/js/index.js
+[运行时间：0.034107s] [吞吐率：29.32req/s] [内存消耗：989.41kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'index.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:33+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.018709s] [吞吐率：53.45req/s] [内存消耗：990.20kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-4.1.3-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:33+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/css/all.css
+[运行时间：0.025570s] [吞吐率：39.11req/s] [内存消耗：989.77kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'all.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:33+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/css/index.css
+[运行时间：0.038791s] [吞吐率：25.78req/s] [内存消耗：989.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'index.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.020603s] [吞吐率：48.54req/s] [内存消耗：990.20kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-4.1.3-dist',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/css/index.css
+[运行时间：0.021851s] [吞吐率：45.76req/s] [内存消耗：989.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'index.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/css/all.css
+[运行时间：0.024407s] [吞吐率：40.97req/s] [内存消耗：989.77kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'all.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/js/jquery-3.4.1.min.js
+[运行时间：0.019107s] [吞吐率：52.34req/s] [内存消耗：989.77kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-3.4.1.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/js/index.js
+[运行时间：0.018489s] [吞吐率：54.09req/s] [内存消耗：989.60kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'index.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/bootstrap-4.1.3-dist/js/bootstrap.min.js
+[运行时间：0.021948s] [吞吐率：45.56req/s] [内存消耗：989.98kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap-4.1.3-dist',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:03:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/js/index.js
+[运行时间：0.022707s] [吞吐率：44.04req/s] [内存消耗：989.60kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'index.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/BaiPiao-PHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:04:47+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/static/js/jquery-3.4.1.min.js
+[运行时间：0.028591s] [吞吐率：34.98req/s] [内存消耗：990.62kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-3.4.1.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:06:30+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/login/login
+[运行时间：0.015433s] [吞吐率：64.80req/s] [内存消耗：990.20kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '36cedbc6-fc6c-4d36-bd5e-8f13773bf157',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:07:32+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/login/login
+[运行时间：0.030505s] [吞吐率：32.78req/s] [内存消耗：990.20kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0c3ef4a5-772b-49e2-872a-27241dc7dcf4',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:07:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/login/login
+[运行时间：0.020977s] [吞吐率：47.67req/s] [内存消耗：990.20kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd5f914dc-7ee2-43dc-8f86-49e379159097',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:11:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.020761s] [吞吐率：48.17req/s] [内存消耗：984.92kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd1a43804-9518-4dc9-9b3c-43d37d30f03f',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:14:11+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.032146s] [吞吐率：31.11req/s] [内存消耗：984.94kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a6e33ca6-6f6b-4023-84d8-8d1204d29eb9',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:14:27+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.019663s] [吞吐率：50.86req/s] [内存消耗：985.37kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '65b887ee-1e25-49af-8dbd-796e35d0aa34',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:15:12+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api
+[运行时间：0.017949s] [吞吐率：55.71req/s] [内存消耗：983.08kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8936a6f5-bd10-40af-94ed-f1f57421748d',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:15:21+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/v1/api
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：916.69kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0f2bb62-4119-4b78-9fc7-8ad3cca98d36',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:15:41+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/controller/v1/api
+[运行时间：0.025130s] [吞吐率：39.79req/s] [内存消耗：916.83kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'controller',
+    1 => 'v1',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e9090a9-c6b3-4724-90c6-590526ce2710',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:21:01+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.023518s] [吞吐率：42.52req/s] [内存消耗：988.42kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee32d09d-d3c3-46be-abc6-1a430f364c6b',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Login->login[ E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:6]
+---------------------------------------------------------------
+[ 2019-07-11T10:21:22+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.020479s] [吞吐率：48.83req/s] [内存消耗：988.42kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be6287f9-36b2-48d5-866f-7b6ff87729d4',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Login->login[ E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:6]
+---------------------------------------------------------------
+[ 2019-07-11T10:21:58+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.024003s] [吞吐率：41.66req/s] [内存消耗：988.42kb] [文件加载：35]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '504e439e-724c-4970-a0f4-91437fde4b52',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Login->login[ E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:6]
+---------------------------------------------------------------
+[ 2019-07-11T10:22:54+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.021248s] [吞吐率：47.06req/s] [内存消耗：986.66kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:23:22+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.026040s] [吞吐率：38.40req/s] [内存消耗：987.16kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:23:24+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.020536s] [吞吐率：48.70req/s] [内存消耗：987.16kb] [文件加载：34]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:23:36+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.026516s] [吞吐率：37.71req/s] [内存消耗：986.90kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '930d3ffa-11db-480d-8b09-b8c04d6ab28e',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';'[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:6]
+---------------------------------------------------------------
+[ 2019-07-11T10:23:45+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.015598s] [吞吐率：64.11req/s] [内存消耗：751.73kb] [文件加载：24]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7daed17f-470a-4b11-be7c-50d18233351b',
+  'user-agent' => 'PostmanRuntime/7.2.0',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Login->login[ E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:24:06+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.022136s] [吞吐率：45.18req/s] [内存消耗：754.05kb] [文件加载：24]
+[ info ] [ LANG ] E:\xampp\htdocs\BaiPiao-PHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Login->login[ E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-11T10:26:23+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index.php/api/v1/Login
+[运行时间：0.020288s] [吞吐率：49.29req/s] [内存消耗：880.06kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.014165s] [吞吐率：70.60req/s] [内存消耗：878.64kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/all.css
+[运行时间：0.013726s] [吞吐率：72.85req/s] [内存消耗：878.37kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/index.css
+[运行时间：0.016447s] [吞吐率：60.80req/s] [内存消耗：878.38kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/js/bootstrap.min.js
+[运行时间：0.024681s] [吞吐率：40.52req/s] [内存消耗：878.48kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/jquery-3.4.1.min.js
+[运行时间：0.018240s] [吞吐率：54.82req/s] [内存消耗：878.31kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/index.js
+[运行时间：0.017841s] [吞吐率：56.05req/s] [内存消耗：878.27kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/js/bootstrap.min.js
+[运行时间：0.014495s] [吞吐率：68.99req/s] [内存消耗：878.48kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:53+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/index.js
+[运行时间：0.023420s] [吞吐率：42.70req/s] [内存消耗：878.27kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:54+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/all.css
+[运行时间：0.012670s] [吞吐率：78.93req/s] [内存消耗：878.46kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:54+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/index.css
+[运行时间：0.020879s] [吞吐率：47.89req/s] [内存消耗：878.47kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:54+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.024027s] [吞吐率：41.62req/s] [内存消耗：878.73kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:58+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/all.css
+[运行时间：0.012846s] [吞吐率：77.85req/s] [内存消耗：878.46kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:58+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.012199s] [吞吐率：81.97req/s] [内存消耗：878.73kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:58+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/index.css
+[运行时间：0.012093s] [吞吐率：82.69req/s] [内存消耗：878.47kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:58+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/jquery-3.4.1.min.js
+[运行时间：0.013243s] [吞吐率：75.51req/s] [内存消耗：878.47kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:58+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/js/bootstrap.min.js
+[运行时间：0.013617s] [吞吐率：73.44req/s] [内存消耗：878.64kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:45:58+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/index.js
+[运行时间：0.013451s] [吞吐率：74.34req/s] [内存消耗：878.42kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:49:41+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/all.css
+[运行时间：0.016163s] [吞吐率：61.87req/s] [内存消耗：878.46kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:49:41+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/css/index.css
+[运行时间：0.021275s] [吞吐率：47.00req/s] [内存消耗：878.47kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:49:41+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/css/bootstrap.min.css
+[运行时间：0.028227s] [吞吐率：35.43req/s] [内存消耗：878.73kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:49:41+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/jquery-3.4.1.min.js
+[运行时间：0.015848s] [吞吐率：63.10req/s] [内存消耗：878.47kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:49:41+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/bootstrap-4.1.3-dist/js/bootstrap.min.js
+[运行时间：0.018316s] [吞吐率：54.60req/s] [内存消耗：878.64kb] [文件加载：31]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2019-07-11T10:49:41+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php/static/js/index.js
+[运行时间：0.024992s] [吞吐率：40.01req/s] [内存消耗：878.42kb] [文件加载：31]
+[ error ] module not exists:static
