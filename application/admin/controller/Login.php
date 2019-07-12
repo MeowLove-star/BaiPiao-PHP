@@ -9,7 +9,6 @@ class Login extends \think\Controller{
             $data=input('post.');
             $checkError=(new LoginCheck)->goCheck();
             if($checkError){
-                //all come in
                 return $this->fetch('login',['msg'=>$checkError]);
             }
             $res=(new User)->checkLogin($data);
@@ -22,11 +21,8 @@ class Login extends \think\Controller{
                 }               
             }
             if(empty($this->msg)){
-                halt('hi');
                 return $this->home();
             }else{
-                //halt($this->msg);
-                halt('oh');
                 return $this->fetch('login',['msg'=>$this->msg]);
             }            
         }else{

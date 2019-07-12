@@ -19,6 +19,5 @@ class LoginCheck extends \think\Validate{
                 return $error;
             }           
         }
-        return true;
     }
 }
