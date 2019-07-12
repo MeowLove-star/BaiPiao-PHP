@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562895577;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562899770;}*/ ?>
 <!DOCTYPE html>
 <html>
 

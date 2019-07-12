@@ -26,11 +26,12 @@ $(document).ready(function () {
 
 
     $("#rootsub").click(function () {
-        if ($("#rootusr").val() == "" || $("#rootpwd").val() == '') {
-            alert("管理员名与密码不能空");
-        }
-        else {
-            $("form").submit();
-        }
+        // if ($("#rootusr").val() == "" || $("#rootpwd").val() == '') {
+        //     alert("管理员名与密码不能空");
+        // }
+        // else {
+        //     $("form").submit();
+        // }
+        $("form").submit();
     });
 });

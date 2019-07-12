@@ -1,5 +1,59 @@
+<<<<<<< HEAD
 ---------------------------------------------------------------
 [ 2019-07-12T09:32:33+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/admin/login/login.html
 [è¿è¡Œæ—¶é—´ï¼š0.080700s] [ååç‡ï¼š12.39req/s] [å†…å­˜æ¶ˆè€—ï¼š1,361.64kb] [æ–‡ä»¶åŠ è½½ï¼š41]
 [ error ] [8192]Non-static method app\admin\model\User::checkLogin() should not be called statically[E:\xampp\htdocs\BaiPiao-PHP\application\admin\controller\Login.php:10]
 [ error ] Non-static method app\admin\model\User::checkLogin() should not be called statically
+=======
+---------------------------------------------------------------
+[ 2019-07-12T08:32:12+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/home
+[è¿è¡Œæ—¶é—´ï¼š0.075347s] [ååç‡ï¼š13.27req/s] [å†…å­˜æ¶ˆè€—ï¼š1,170.84kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:17+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/login/home
+[è¿è¡Œæ—¶é—´ï¼š0.037494s] [ååç‡ï¼š26.67req/s] [å†…å­˜æ¶ˆè€—ï¼š1,170.84kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[è¿è¡Œæ—¶é—´ï¼š0.018258s] [ååç‡ï¼š54.77req/s] [å†…å­˜æ¶ˆè€—ï¼š1,170.88kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:39+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[è¿è¡Œæ—¶é—´ï¼š0.016645s] [ååç‡ï¼š60.08req/s] [å†…å­˜æ¶ˆè€—ï¼š1,171.00kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[è¿è¡Œæ—¶é—´ï¼š0.025184s] [ååç‡ï¼š39.71req/s] [å†…å­˜æ¶ˆè€—ï¼š1,171.00kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[è¿è¡Œæ—¶é—´ï¼š0.028259s] [ååç‡ï¼š35.39req/s] [å†…å­˜æ¶ˆè€—ï¼š1,171.00kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[è¿è¡Œæ—¶é—´ï¼š0.017368s] [ååç‡ï¼š57.58req/s] [å†…å­˜æ¶ˆè€—ï¼š1,171.00kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:34:27+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/index/index/home.html
+[è¿è¡Œæ—¶é—´ï¼š0.022275s] [ååç‡ï¼š44.89req/s] [å†…å­˜æ¶ˆè€—ï¼š1,435.86kb] [æ–‡ä»¶åŠ è½½ï¼š38]
+[ error ] [0]æ¨¡æ¿æ–‡ä»¶ä¸å­˜åœ¨:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\home.html[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\thinkphp\library\think\view\driver\Think.php:82]
+[ error ] template not exists:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\home.html
+---------------------------------------------------------------
+[ 2019-07-12T08:42:23+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/index.php
+[è¿è¡Œæ—¶é—´ï¼š0.026973s] [ååç‡ï¼š37.07req/s] [å†…å­˜æ¶ˆè€—ï¼š1,451.27kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ error ] [0]æ¨¡æ¿æ–‡ä»¶ä¸å­˜åœ¨:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\index.html[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\thinkphp\library\think\view\driver\Think.php:82]
+[ error ] template not exists:E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/index\view\index\index.html
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+[ error ] Maximum execution time of 60 seconds exceeded
+>>>>>>> fe3ef1d660c4feea71f475ddd7fa067f0978c55e
