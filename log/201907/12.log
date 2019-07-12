@@ -77,3 +77,8 @@
 [运行时间：0.027146s] [吞吐率：36.84req/s] [内存消耗：1,297.02kb] [文件加载：38]
 [ error ] [8192]Non-static method app\api\model\User::checkLogin() should not be called statically[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:11]
 [ error ] Non-static method app\api\model\User::checkLogin() should not be called statically
+---------------------------------------------------------------
+[ 2019-07-12T16:49:31+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[运行时间：0.017018s] [吞吐率：58.76req/s] [内存消耗：926.03kb] [文件加载：32]
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:8]
+[ error ] Namespace declaration statement has to be the very first statement or after any declare call in the script
