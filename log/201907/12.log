@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2019-07-12T08:32:12+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/home
+[运行时间：0.075347s] [吞吐率：13.27req/s] [内存消耗：1,170.84kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:17+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/login/home
+[运行时间：0.037494s] [吞吐率：26.67req/s] [内存消耗：1,170.84kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:37+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[运行时间：0.018258s] [吞吐率：54.77req/s] [内存消耗：1,170.88kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:39+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[运行时间：0.016645s] [吞吐率：60.08req/s] [内存消耗：1,171.00kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[运行时间：0.025184s] [吞吐率：39.71req/s] [内存消耗：1,171.00kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[运行时间：0.028259s] [吞吐率：35.39req/s] [内存消耗：1,171.00kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
+---------------------------------------------------------------
+[ 2019-07-12T08:32:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/admin/Login/login/home
+[运行时间：0.017368s] [吞吐率：57.58req/s] [内存消耗：1,171.00kb] [文件加载：32]
+[ error ] [64]Cannot redeclare app\admin\controller\Login::home()[E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\application\admin\controller\Login.php:18]
+[ error ] Cannot redeclare app\admin\controller\Login::home()
