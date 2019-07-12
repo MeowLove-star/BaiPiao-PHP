@@ -82,3 +82,8 @@
 [运行时间：0.017018s] [吞吐率：58.76req/s] [内存消耗：926.03kb] [文件加载：32]
 [ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:8]
 [ error ] Namespace declaration statement has to be the very first statement or after any declare call in the script
+---------------------------------------------------------------
+[ 2019-07-12T17:34:52+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/10
+[运行时间：0.027843s] [吞吐率：35.92req/s] [内存消耗：927.51kb] [文件加载：32]
+[ error ] [64]Cannot declare class app\api\controller\v1\Video because the name is already in use[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Video.php:12]
+[ error ] Cannot declare class app\api\controller\v1\Video because the name is already in use

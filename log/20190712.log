@@ -352,3 +352,31 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010250s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004137s ]
 [ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-07-12T17:42:19+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/6
+[运行时间：0.104543s] [吞吐率：9.57req/s] [内存消耗：1,926.99kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001901s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.007581s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `videoStatus` = 1 LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 LIMIT 0,20 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2019-07-12T17:42:55+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/6
+[运行时间：0.060689s] [吞吐率：16.48req/s] [内存消耗：1,926.99kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009997s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003116s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `videoStatus` = 1 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 LIMIT 0,20 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-07-12T17:43:16+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/6
+[运行时间：0.029636s] [吞吐率：33.74req/s] [内存消耗：1,926.99kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `videoStatus` = 1 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 LIMIT 0,20 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2019-07-12T17:43:43+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/6
+[运行时间：0.044393s] [吞吐率：22.53req/s] [内存消耗：1,928.62kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009861s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002818s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `videoStatus` = 1 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 LIMIT 0,20 [ RunTime:0.000372s ]
