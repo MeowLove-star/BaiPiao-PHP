@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:89:"E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562835951;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:89:"E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562891198;}*/ ?>
 <!DOCTYPE html>
 <html>
 

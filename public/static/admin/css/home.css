@@ -22,3 +22,8 @@
     bottom: 0px;
     background-color: red;
 }
+.carimg{
+    max-width: 180px;
+    max-height: 101px;
+    margin: auto;
+}

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:88:"E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/admin\view\login\home.html";i:1562837563;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:88:"E:\phpstudy\PHPTutorial\WWW\BaiPiao-PHP\public/../application/admin\view\login\home.html";i:1562895165;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -20,7 +20,7 @@
             <div class="container col-md-3" style="float:right;">
                 <div class="dropdown">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        Dropdown button
+                        管理员名
                     </button>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">退出</a>
@@ -30,16 +30,18 @@
         </div>
         <div class="home_body">
 
-            <div class="container  col-md-10">
-                <div class="d-flex p-3 bg-secondary ">  
-                  <div class="p-3 col-md-5">Flex item 1</div>
-                  <div class="p-3 col-md-5">Flex item 2</div>
-                  <div class="p-2 col-md-5">Flex item 3</div>
-                  <div class="p-3 col-md-5">Flex item 1</div>
-                  <div class="p-3 col-md-5">Flex item 2</div>
-                  <div class="p-2 col-md-5">Flex item 3</div>
+            <div class="container" style="margin-top:10px;">
+                <div class="d-flex align-items-center bg-light text-dark flex-wrap">
+                    <div class="p-3 col-3">
+                        <div class="card bg-info text-white">
+                            <img class="card-img-top carimg" src="/BaiPiao-PHP/public/static/admin/img/bgimg0.jpg" alt="" >
+                            <div class="card-body">Info card</div>
+                        </div>
+                    </div>
+
+
                 </div>
-              </div>
+            </div>
         </div>
     </div>
 
