@@ -298,3 +298,27 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.009872s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002960s ]
 [ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-07-12T15:42:26+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[运行时间：0.041170s] [吞吐率：24.29req/s] [内存消耗：1,988.48kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010136s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003474s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2019-07-12T15:44:01+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[运行时间：0.050975s] [吞吐率：19.62req/s] [内存消耗：1,949.13kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010095s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002842s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2019-07-12T15:44:37+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[运行时间：0.056684s] [吞吐率：17.64req/s] [内存消耗：1,949.13kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010429s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003176s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2019-07-12T15:44:52+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[运行时间：0.044150s] [吞吐率：22.65req/s] [内存消耗：1,949.13kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010732s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002869s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000477s ]

@@ -21,7 +21,7 @@ class Login extends \think\Controller{
                 }               
             }
             if(empty($this->msg)){
-                return $this->home();
+                return 'success';
             }else{
                 return $this->fetch('login',['msg'=>$this->msg]);
             }            
@@ -30,7 +30,7 @@ class Login extends \think\Controller{
         }       
     }
     public function home()
-    {
+    {       
         return $this->fetch('home');         
     }
 }

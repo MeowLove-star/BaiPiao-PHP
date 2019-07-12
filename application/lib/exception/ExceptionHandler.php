@@ -9,9 +9,9 @@ class ExceptionHandler extends Handle{
     private $msg;
     private $errorCode;
     public function render(\Exception $e){
-        if(config('app_debug')){
-            return parent::render($e);
-        }   
+        // if(config('app_debug')){
+        //     return parent::render($e);
+        // }   
         if($e instanceof ApiException){
             $this->code=$e->code;
             $this->msg=$e->msg;

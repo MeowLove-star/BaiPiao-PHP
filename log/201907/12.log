@@ -57,3 +57,23 @@
 ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
 [ error ] Maximum execution time of 60 seconds exceeded
 >>>>>>> fe3ef1d660c4feea71f475ddd7fa067f0978c55e
+---------------------------------------------------------------
+[ 2019-07-12T15:38:09+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[è¿è¡Œæ—¶é—´ï¼š0.025840s] [ååç‡ï¼š38.70req/s] [å†…å­˜æ¶ˆè€—ï¼š887.80kb] [æ–‡ä»¶åŠ è½½ï¼š32]
+[ error ] [0]è¯­æ³•è§£æé”™è¯¯: syntax error, unexpected '}', expecting ',' or ';'[E:\xampp\htdocs\BaiPiao-PHP\application\api\validate\LoginCheck.php:14]
+[ error ] Parse error: syntax error, unexpected '}', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2019-07-12T15:40:05+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[è¿è¡Œæ—¶é—´ï¼š0.032227s] [ååç‡ï¼š31.03req/s] [å†…å­˜æ¶ˆè€—ï¼š1,297.02kb] [æ–‡ä»¶åŠ è½½ï¼š38]
+[ error ] [8192]Non-static method app\api\model\User::checkLogin() should not be called statically[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:11]
+[ error ] Non-static method app\api\model\User::checkLogin() should not be called statically
+---------------------------------------------------------------
+[ 2019-07-12T15:40:43+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[è¿è¡Œæ—¶é—´ï¼š0.028741s] [ååç‡ï¼š34.79req/s] [å†…å­˜æ¶ˆè€—ï¼š1,297.02kb] [æ–‡ä»¶åŠ è½½ï¼š38]
+[ error ] [8192]Non-static method app\api\model\User::checkLogin() should not be called statically[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:11]
+[ error ] Non-static method app\api\model\User::checkLogin() should not be called statically
+---------------------------------------------------------------
+[ 2019-07-12T15:41:09+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/Login
+[è¿è¡Œæ—¶é—´ï¼š0.027146s] [ååç‡ï¼š36.84req/s] [å†…å­˜æ¶ˆè€—ï¼š1,297.02kb] [æ–‡ä»¶åŠ è½½ï¼š38]
+[ error ] [8192]Non-static method app\api\model\User::checkLogin() should not be called statically[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Login.php:11]
+[ error ] Non-static method app\api\model\User::checkLogin() should not be called statically

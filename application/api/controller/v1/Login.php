@@ -8,7 +8,8 @@ class Login{
         if(request()->isPost()){
             (new LoginCheck)->goCheck();
             $data=input('post.');
-            User::checkLogin($data);
+            $res=(new User)->checkLogin($data);
+            return json(['msg'=>'success','code'=>200,'data'=>$res]);
         }else{
             throw new ApiException('请使用post提交表单',404,10000);
         }       

@@ -7,4 +7,8 @@ class LoginCheck extends BaseValidate{
         'userName'=>'require',
         'userPassword'=>'require',
     ];
+    protected $message=[
+        'userName.require'=>'用户名不能为空',
+        'userPassword.require'=>'密码不能为空',
+    ];
 }
