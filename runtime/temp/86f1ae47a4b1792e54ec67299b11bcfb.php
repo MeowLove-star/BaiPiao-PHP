@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562834995;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"E:\xampp\htdocs\BaiPiao-PHP\public/../application/admin\view\login\login.html";i:1562895577;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -19,14 +19,14 @@
                 <div class="card-header">管理员登陆</div>
                 <div class="card-body">
 
-                    <form method="POST" action="<?php echo url('index/Index/home'); ?>">
+                    <form method="POST" action="<?php echo url('admin/login/login'); ?>">
                         <div class="form-group">
                             <label for="usr">用户名:</label>
-                            <input type="text" class="form-control" id="rootusr" name="rootusr">
+                            <input type="text" class="form-control" id="rootusr" name="userName">
                         </div>
                         <div class="form-group">
                             <label for="pwd">密码:</label>
-                            <input type="password" class="form-control" id="rootpwd" name="rootpwd">
+                            <input type="password" class="form-control" id="rootpwd" name="userPassword">
                         </div>
                         <button class="btn" id="rootsub">登录</button>
                     </form>

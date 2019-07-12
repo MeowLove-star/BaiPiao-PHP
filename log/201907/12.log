@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2019-07-12T09:32:33+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/admin/login/login.html
+[运行时间：0.080700s] [吞吐率：12.39req/s] [内存消耗：1,361.64kb] [文件加载：41]
+[ error ] [8192]Non-static method app\admin\model\User::checkLogin() should not be called statically[E:\xampp\htdocs\BaiPiao-PHP\application\admin\controller\Login.php:10]
+[ error ] Non-static method app\admin\model\User::checkLogin() should not be called statically
