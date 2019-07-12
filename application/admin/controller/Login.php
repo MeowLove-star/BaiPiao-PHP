@@ -11,7 +11,10 @@ class Login extends \think\Controller{
         }
         
     }
-    public function home(){
+
+    public function home()
+    {
         return $this->fetch();
+        # code...
     }
 }
