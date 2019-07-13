@@ -124,3 +124,92 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010538s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.055187s ]
 [ sql ] [ SQL ] UPDATE `video`  SET `videoStatus`=0  WHERE  `videoId` = 2 [ RunTime:0.066910s ]
+---------------------------------------------------------------
+[ 2019-07-13T15:50:41+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/2/1
+[运行时间：0.044826s] [吞吐率：22.31req/s] [内存消耗：1,828.74kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011191s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002364s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 LIMIT 0,2 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:25:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.091359s] [吞吐率：10.95req/s] [内存消耗：1,936.52kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001164s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004113s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoType` , `videoTitle` , `videoIntroduction` , `upVDate` , `update_time`) VALUES ('mv' , '国豪' , 'ok' , 1563006340 , 1563006340) [ RunTime:0.047750s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:27:19+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.092070s] [吞吐率：10.86req/s] [内存消耗：1,937.15kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010527s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003377s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoType` , `videoTitle` , `videoIntroduction` , `userId` , `upVDate` , `update_time`) VALUES ('mv' , '国豪' , 'ok' , 2 , 1563006439 , 1563006439) [ RunTime:0.036856s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:29:42+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.124669s] [吞吐率：8.02req/s] [内存消耗：1,937.27kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011061s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003747s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoType` , `videoTitle` , `videoIntroduction` , `userId` , `create_time` , `update_time`) VALUES ('music' , 'jesus' , 'ok' , 2 , 1563006582 , 1563006582) [ RunTime:0.060732s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:30:14+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/20/1
+[运行时间：0.079801s] [吞吐率：12.53req/s] [内存消耗：1,830.98kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010142s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.026750s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 LIMIT 0,20 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:55:52+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/2
+[运行时间：0.036743s] [吞吐率：27.22req/s] [内存消耗：1,833.89kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002242s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 LIMIT 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:56:16+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/2
+[运行时间：0.031439s] [吞吐率：31.81req/s] [内存消耗：1,875.05kb] [文件加载：39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002336s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:56:28+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/2
+[运行时间：0.053270s] [吞吐率：18.77req/s] [内存消耗：1,875.39kb] [文件加载：39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010838s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003528s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2019-07-13T16:56:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/5
+[运行时间：0.045939s] [吞吐率：21.77req/s] [内存消耗：1,875.38kb] [文件加载：39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.005623s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 5 LIMIT 1 [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[ 2019-07-13T17:00:12+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/5
+[运行时间：0.088632s] [吞吐率：11.28req/s] [内存消耗：1,857.13kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010014s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.005393s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 5 LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] UPDATE `video`  SET `videoStatus`=1  WHERE  `videoId` = 5 [ RunTime:0.037994s ]
+---------------------------------------------------------------
+[ 2019-07-13T17:01:36+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/2
+[运行时间：0.098559s] [吞吐率：10.15req/s] [内存消耗：1,857.20kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010230s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004740s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] UPDATE `video`  SET `videoStatus`=1  WHERE  `videoId` = 2 [ RunTime:0.038552s ]
+---------------------------------------------------------------
+[ 2019-07-13T17:01:48+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/2
+[运行时间：0.118394s] [吞吐率：8.45req/s] [内存消耗：1,857.20kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011280s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004995s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] UPDATE `video`  SET `videoStatus`=0  WHERE  `videoId` = 2 [ RunTime:0.056676s ]
+---------------------------------------------------------------
+[ 2019-07-13T17:04:57+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/2
+[运行时间：0.079703s] [吞吐率：12.55req/s] [内存消耗：1,994.78kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010482s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002868s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] UPDATE `video`  SET `videoStatus`=1  WHERE  `videoId` = 2 [ RunTime:0.035522s ]
+---------------------------------------------------------------
+[ 2019-07-13T17:07:10+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/status/5
+[运行时间：0.093417s] [吞吐率：10.70req/s] [内存消耗：1,995.95kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009901s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002753s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 5 LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] UPDATE `video`  SET `videoStatus`=0  WHERE  `videoId` = 5 [ RunTime:0.048006s ]

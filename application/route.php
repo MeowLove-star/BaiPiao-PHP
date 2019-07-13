@@ -27,4 +27,9 @@ use think\Route;
  Route::post('api/:version/deleteVideoByvideoId/:videoId','api/:version.Video/deleteVideoByvideoId');
  Route::post('api/:version/deleteVideoByvideoId','api/:version.Video/deleteVideoByvideoId');
 
+ Route::post('api/:version/video','api/:version.Video/createVideo');
+
+ Route::post('api/:version/status/:videoId','api/:version.Video/statusChange');
+ Route::post('api/:version/status','api/:version.Video/statusChange');
+
 

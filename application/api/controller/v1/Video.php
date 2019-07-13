@@ -4,6 +4,8 @@ use app\lib\exception\ApiException;
 use app\api\validate\LoginCheck;
 use app\api\validate\VideoUploadCheck;
 use app\api\validate\VideoDeleteCheck;
+use app\api\validate\VideoCreate;
+use app\api\validate\VideoIdCheck;
 use app\api\model\Video as modelVideo;
 // 制定允许其他域名访问
 header("Access-Control-Allow-Origin:*");
@@ -30,7 +32,6 @@ class Video{
         ]);
     }
     public function uploadVideo(){
-        //(new VideoUploadCheck)->goCheck();
         $videoUrl=request()->file('videoUrl');
         $videoPic=request()->file('videoPic');   
         if($videoUrl&&$videoPic){
@@ -56,7 +57,31 @@ class Video{
         }
         return json([
             'code'=>200,
-            'message'=>'success',
+            'message'=>'视频删除成功',
+        ]);
+    }
+    public function createVideo(){
+        (new VideoCreate)->goCheck();
+        $data=input('post.');  //halt($data);
+        $res=(new modelVideo)->videoCreate($data);
+        if(!$res){
+            throw new ApiException('视频上传失败',201,20003);
+        }
+        return json([
+            'code'=>200,
+            'message'=>'视频上传成功',
+            'data'=>$res,
+        ]);
+    }
+    public function statusChange($videoId=''){
+        (new VideoIdCheck)->goCheck();
+        $res=(new modelVideo)->statusChange($videoId);
+        if(!$res){
+            throw new ApiException('状态更新失败',201,20003);
+        }
+        return json([
+            'code'=>200,
+            'message'=>'状态更新成功',
         ]);
     }
 }
