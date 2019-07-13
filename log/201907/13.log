@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2019-07-13T09:32:11+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/6
+[运行时间：0.094881s] [吞吐率：10.54req/s] [内存消耗：1,988.57kb] [文件加载：45]
+[ error ] [8]A non well formed numeric value encountered[E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\Model.php:516]
+[ error ] A non well formed numeric value encountered

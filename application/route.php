@@ -18,8 +18,8 @@ use think\Route;
  Route::post('api/:version/Login','api/:version.Login/login');
  Route::get('api/:version/Login','api/:version.Login/login');
 
-//http://localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/6
- Route::post('api/:version/getNormalVideoList/:count','api/:version.Video/getNormalVideoList');
+//http://localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/每页显示条数/页数
+ Route::post('api/:version/getNormalVideoList/:count/:page','api/:version.Video/getNormalVideoList');
  Route::post('api/:version/getNormalVideoList','api/:version.Video/getNormalVideoList');
 
 
