@@ -22,4 +22,9 @@ use think\Route;
  Route::post('api/:version/getNormalVideoList/:count/:page','api/:version.Video/getNormalVideoList');
  Route::post('api/:version/getNormalVideoList','api/:version.Video/getNormalVideoList');
 
+ Route::post('api/:version/uploadVideo','api/:version.Video/uploadVideo');
+
+ Route::post('api/:version/deleteVideoByvideoId/:videoId','api/:version.Video/deleteVideoByvideoId');
+ Route::post('api/:version/deleteVideoByvideoId','api/:version.Video/deleteVideoByvideoId');
+
 
