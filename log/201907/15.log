@@ -1,0 +1,84 @@
+---------------------------------------------------------------
+[ 2019-07-15T09:25:40+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.016261s] [吞吐率：61.50req/s] [内存消耗：890.72kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T09:28:08+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.024683s] [吞吐率：40.51req/s] [内存消耗：902.78kb] [文件加载：32]
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ',' or ';'[E:\xampp\htdocs\BaiPiao-PHP\application\api\validate\VideoCreate.php:22]
+[ error ] Parse error: syntax error, unexpected '}', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2019-07-15T09:44:53+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.032285s] [吞吐率：30.97req/s] [内存消耗：1,009.58kb] [文件加载：34]
+[ error ] [8]Undefined property: think\File::$pathName[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Video.php:94]
+[ error ] Undefined property: think\File::$pathName
+---------------------------------------------------------------
+[ 2019-07-15T10:04:16+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.023254s] [吞吐率：43.00req/s] [内存消耗：1,012.19kb] [文件加载：34]
+[ error ] [2]hash_file(): Unknown hashing algorithm: file[E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\File.php:139]
+[ error ] hash_file(): Unknown hashing algorithm: file
+---------------------------------------------------------------
+[ 2019-07-15T10:33:15+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.023740s] [吞吐率：42.12req/s] [内存消耗：908.56kb] [文件加载：32]
+[ error ] [0]语法解析错误: syntax error, unexpected '请使用post提交' (T_STRING), expecting ']'[E:\xampp\htdocs\BaiPiao-PHP\application\api\validate\VideoCreate.php:7]
+[ error ] Parse error: syntax error, unexpected '请使用post提交' (T_STRING), expecting ']'
+---------------------------------------------------------------
+[ 2019-07-15T10:43:27+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.019569s] [吞吐率：51.10req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:45:12+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.025803s] [吞吐率：38.76req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:47:42+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.015241s] [吞吐率：65.61req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:47:51+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.030497s] [吞吐率：32.79req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:53:52+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.029908s] [吞吐率：33.44req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:53:54+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.012691s] [吞吐率：78.80req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:53:54+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.012696s] [吞吐率：78.76req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:53:55+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.011758s] [吞吐率：85.05req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:54:04+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.015714s] [吞吐率：63.64req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T10:57:49+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.016204s] [吞吐率：61.71req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T11:00:13+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.017610s] [吞吐率：56.79req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T11:00:25+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.011278s] [吞吐率：88.67req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T11:00:25+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.012761s] [吞吐率：78.36req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T11:14:15+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.015682s] [吞吐率：63.77req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T11:16:37+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.032444s] [吞吐率：30.82req/s] [内存消耗：891.86kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1

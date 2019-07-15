@@ -8,7 +8,7 @@ class BaseValidate extends \think\Validate{
     protected $msg;
     protected $errorCode=10000;
     public function goCheck(){
-        $data=input();
+        $data=input(); 
         if(!$this->batch()->check($data)){
             $error=$this->error;    //因为在校验类内部，所以调用错误信息用$this->error,返回的是数组
             //halt($error);

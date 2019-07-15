@@ -14,6 +14,10 @@ header('Access-Control-Allow-Methods:POST');
 // 响应头设置
 header('Access-Control-Allow-Headers:x-requested-with, content-type');
 class Video{
+    public function test(){
+        
+    }
+
     public function getNormalVideoByType(){
         
     }
@@ -31,24 +35,24 @@ class Video{
             'data'=>$res,
         ]);
     }
-    public function uploadVideo(){
-        $videoUrl=request()->file('videoUrl');
-        $videoPic=request()->file('videoPic');   
-        if($videoUrl&&$videoPic){
-            $videoPicinfo = $videoPic->move(ROOT_PATH . 'public' . DS . 'uploads');
-            $videoUrlinfo = $videoUrl->move(ROOT_PATH . 'public' . DS . 'uploads');
-            if($videoPicinfo&&$videoUrlinfo){
-                return json([
-                    'code'=>'200',
-                    'msg'=>'success',
-                    'videoUrl'=>$videoUrlinfo->getPathname(),
-                    'videoPic'=>$videoPicinfo->getPathname(),
-                ]);
-            }
-        }else{
-            throw new ApiException('相关上传失败',404,20001);
-        }
-    }
+    // public function uploadVideo(){
+    //     $videoUrl=request()->file('videoUrl');
+    //     $videoPic=request()->file('videoPic');   
+    //     if($videoUrl&&$videoPic){
+    //         $videoPicinfo = $videoPic->move(ROOT_PATH . 'public' . DS . 'uploads');
+    //         $videoUrlinfo = $videoUrl->move(ROOT_PATH . 'public' . DS . 'uploads');
+    //         if($videoPicinfo&&$videoUrlinfo){
+    //             return json([
+    //                 'code'=>'200',
+    //                 'msg'=>'success',
+    //                 'videoUrl'=>$videoUrlinfo->getPathname(),
+    //                 'videoPic'=>$videoPicinfo->getPathname(),
+    //             ]);
+    //         }
+    //     }else{
+    //         throw new ApiException('相关上传失败',404,20001);
+    //     }
+    // }
     public function deleteVideoByvideoId($videoId=''){
         (new VideoDeleteCheck)->goCheck();
         $res=(new modelVideo)->deleteByID($videoId);
@@ -60,19 +64,19 @@ class Video{
             'message'=>'视频删除成功',
         ]);
     }
-    public function createVideo(){
-        (new VideoCreate)->goCheck();
-        $data=input('post.');  //halt($data);
-        $res=(new modelVideo)->videoCreate($data);
-        if(!$res){
-            throw new ApiException('视频上传失败',201,20003);
-        }
-        return json([
-            'code'=>200,
-            'message'=>'视频上传成功',
-            'data'=>$res,
-        ]);
-    }
+    // public function createVideo(){
+    //     (new VideoCreate)->goCheck();
+    //     $data=input('post.');  //halt($data);
+    //     $res=(new modelVideo)->videoCreate($data);
+    //     if(!$res){
+    //         throw new ApiException('视频上传失败',201,20003);
+    //     }
+    //     return json([
+    //         'code'=>200,
+    //         'message'=>'视频上传成功',
+    //         'data'=>$res,
+    //     ]);
+    // }
     public function statusChange($videoId=''){
         (new VideoIdCheck)->goCheck();
         $res=(new modelVideo)->statusChange($videoId);
@@ -83,5 +87,39 @@ class Video{
             'code'=>200,
             'message'=>'状态更新成功',
         ]);
+    }
+    public function videoSave(){
+        if(request()->isPost()){
+            //halt(ROOT_PATH);
+            (new VideoCreate)->goCheck();
+            $data=input('post.');
+            $videoUrl=request()->file('videoUrl');
+            $videoPic=request()->file('videoPic');
+            $videoPicinfo = $videoPic->rule('')->move(ROOT_PATH . 'public' . DS . 'picture','');
+            $videoUrlinfo = $videoUrl->rule('')->move(ROOT_PATH . 'public' . DS . 'uploads','');
+            //halt($videoUrl->getPathname());
+            if(!$videoPicinfo->getPathname()){
+                throw new ApiException('视频封面上传失败',201,20005);                 
+            }
+            if(!$videoUrlinfo->getPathname()){
+                throw new ApiException('视频上传失败',201,20006);                 
+            }
+            //halt($videoPicinfo->getSavename());
+            $data['videoPic']='public/picture/'.$videoPicinfo->getSavename();    
+            //halt($data['videoPic']);
+            $data['videoUrl']='public/uploads/'.$videoUrlinfo->getSavename();
+            $res=(new modelVideo)->VideoCreate($data);
+            if(!$res){
+                throw new ApiException('视频发布失败',201,20007);
+            }else{
+                return json([
+                    'code'=>200,
+                    'msg'=>'视频发布成功',
+                ]);
+            }
+        }else{
+            throw new ApiException('请使用post提交',201,20004);
+        }
+        
     }
 }

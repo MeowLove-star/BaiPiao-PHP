@@ -16,7 +16,7 @@ class Login{
             $data=input('post.');
             $res=(new User)->checkLogin($data);
             //session('UserMessage', $res, 'user');
-            return json(['msg'=>'success','code'=>200,'data'=>$res]);
+            return json(['msg'=>'登录成功','code'=>200,'data'=>$res]);
         }else{
             throw new ApiException('请使用post提交表单',404,10000);
         }       

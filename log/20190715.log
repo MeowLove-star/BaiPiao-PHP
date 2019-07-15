@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2019-07-15T10:35:53+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.103095s] [吞吐率：9.70req/s] [内存消耗：2,048.61kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003091s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoType` , `videoTitle` , `videoIntroduction` , `userId` , `videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('mv' , '歌唱' , '演唱会' , 1 , 'public/picture/haha.png' , 'public/uploads/test.png' , 1563158153 , 1563158153) [ RunTime:0.066714s ]
+---------------------------------------------------------------
+[ 2019-07-15T10:37:59+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.121061s] [吞吐率：8.26req/s] [内存消耗：2,048.68kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010779s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.006778s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoType` , `videoTitle` , `videoIntroduction` , `userId` , `videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('mv' , '蔡徐坤' , '我爱你' , 2 , 'public/picture/haha.png' , 'public/uploads/test.png' , 1563158279 , 1563158279) [ RunTime:0.067596s ]
+---------------------------------------------------------------
+[ 2019-07-15T11:31:54+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.096290s] [吞吐率：10.39req/s] [内存消耗：2,049.45kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003288s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoTitle` , `videoType` , `videoIntroduction` , `userId` , `videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('1' , 'tv' , '1' , 1 , 'public/picture/haha.png' , 'public/uploads/haha.png' , 1563161514 , 1563161514) [ RunTime:0.047292s ]
+---------------------------------------------------------------
+[ 2019-07-15T11:38:55+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.095669s] [吞吐率：10.45req/s] [内存消耗：2,049.45kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003369s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoTitle` , `videoType` , `videoIntroduction` , `userId` , `videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('haha' , 'tv' , '66' , 1 , 'public/picture/test.png' , 'public/uploads/haha.png' , 1563161935 , 1563161935) [ RunTime:0.053715s ]

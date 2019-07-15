@@ -15,6 +15,7 @@ class Video extends \think\Model{
         return $res;
     }
     public function videoCreate($data){
+        //halt($data);
         $res=$this->allowField(true)->create($data);
         $res=json_decode(json_encode($res),true);
         return $res;
