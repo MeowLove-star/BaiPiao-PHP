@@ -35,6 +35,9 @@ use think\Route;
  Route::post('api/:version/video','api/:version.Video/videoSave');
  Route::get('api/:version/video','api/:version.Video/videoSave');
 
+    //form 传参：videoType or videoTitle 
+ Route::post('api/:version/videos','api/:version.Video/getNormalVideoByTypeorName');
+ 
 
 
 

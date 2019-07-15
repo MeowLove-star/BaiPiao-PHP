@@ -1,12 +1,38 @@
 <?php
 namespace app\api\model;
 use app\lib\exception\ApiException;
+error_reporting(0);
 
 class Video extends \think\Model{
-    //protected $createTime = 'upVDate';
+    public function showByChoice($type,$name){
+        if(!empty($type)){
+            $res=$this->where(['videoStatus'=>1,'videoType'=>$type])->select(); 
+            $res=json_decode(json_encode($res),true);
+            foreach($res as $k=>$v){
+                $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
+                $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
+            }
+            return $res;
+        }
+        //where('name|title','like','thinkphp%')
+        //$sdata['name']=['like','%'.$data['name'].'%'];
+        if(!empty($name)){
+            $res=$this->where(['videoStatus'=>1])->where('videoTitle','like','%'.$name.'%')->select();
+            $res=json_decode(json_encode($res),true);
+            foreach($res as $k=>$v){
+                $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
+                $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
+            }
+            return $res;
+        }
+    }
     public function showNormalList($count,$page){
-        $res=$this->where(['videoStatus'=>1])->limit($count)->page($page)->select();
-        $res=json_decode(json_encode($res),true);
+        $res=$this->where(['videoStatus'=>1])->limit($count)->page($page)->order('videoId desc')->select();
+        $res=json_decode(json_encode($res),true);      
+        foreach($res as $k=>$v){
+            $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
+            $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
+        }
         return $res;
     }
     public function deleteByID($videoId){

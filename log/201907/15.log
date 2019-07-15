@@ -82,3 +82,37 @@
 [ 2019-07-15T11:16:37+08:00 ] 0.0.0.0 OPTIONS localhost/BaiPiao-PHP/public/api/v1/video
 [运行时间：0.032444s] [吞吐率：30.82req/s] [内存消耗：891.86kb] [文件加载：32]
 [ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T14:43:23+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.018121s] [吞吐率：55.18req/s] [内存消耗：1,112.23kb] [文件加载：35]
+[ error ] [0]致命错误: Call to a member function rule() on null[E:\xampp\htdocs\BaiPiao-PHP\application\api\controller\v1\Video.php:98]
+[ error ] Fatal error: Call to a member function rule() on null
+---------------------------------------------------------------
+[ 2019-07-15T14:59:00+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[运行时间：0.027991s] [吞吐率：35.73req/s] [内存消耗：891.77kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T15:03:28+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/api/v1/status
+[运行时间：0.021166s] [吞吐率：47.25req/s] [内存消耗：891.60kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T15:08:43+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/
+[运行时间：0.050655s] [吞吐率：19.74req/s] [内存消耗：1,874.95kb] [文件加载：41]
+[ error ] [8]未定义数组索引: videoUrl[E:\xampp\htdocs\BaiPiao-PHP\application\api\model\Video.php:9]
+[ error ] Undefined index: videoUrl
+---------------------------------------------------------------
+[ 2019-07-15T15:59:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video2/2
+[运行时间：0.022535s] [吞吐率：44.38req/s] [内存消耗：893.53kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T16:11:43+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/videos//aa
+[运行时间：0.016236s] [吞吐率：61.59req/s] [内存消耗：893.58kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T16:12:55+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/videos//aa
+[运行时间：0.016689s] [吞吐率：59.92req/s] [内存消耗：893.58kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-15T16:13:07+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/videos/aa/
+[运行时间：0.026010s] [吞吐率：38.45req/s] [内存消耗：893.58kb] [文件加载：32]
+[ error ] controller not exists:app\api\controller\V1
