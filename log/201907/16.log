@@ -6,3 +6,28 @@
 [ 2019-07-16T10:48:26+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/picture/12.mp4
 [运行时间：0.019422s] [吞吐率：51.49req/s] [内存消耗：891.57kb] [文件加载：31]
 [ error ] module not exists:picture
+---------------------------------------------------------------
+[ 2019-07-16T15:27:36+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/register
+[运行时间：0.048097s] [吞吐率：20.79req/s] [内存消耗：1,995.38kb] [文件加载：43]
+[ error ] [0]数据表字段不存在:[create_time][E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\db\Builder.php:115]
+[ error ] fields not exists:[create_time]
+---------------------------------------------------------------
+[ 2019-07-16T15:28:15+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/register
+[运行时间：0.030298s] [吞吐率：33.01req/s] [内存消耗：1,995.38kb] [文件加载：43]
+[ error ] [0]数据表字段不存在:[create_time][E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\db\Builder.php:115]
+[ error ] fields not exists:[create_time]
+---------------------------------------------------------------
+[ 2019-07-16T16:21:16+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/register
+[运行时间：0.110072s] [吞吐率：9.08req/s] [内存消耗：2,069.45kb] [文件加载：43]
+[ error ] [0]类的属性不存在:app\api\model\User->userId[E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\Model.php:626]
+[ error ] property not exists:app\api\model\User->userId
+---------------------------------------------------------------
+[ 2019-07-16T16:22:08+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/register
+[运行时间：0.093531s] [吞吐率：10.69req/s] [内存消耗：2,069.45kb] [文件加载：43]
+[ error ] [0]类的属性不存在:app\api\model\User->userId[E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\Model.php:626]
+[ error ] property not exists:app\api\model\User->userId
+---------------------------------------------------------------
+[ 2019-07-16T16:23:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/register
+[运行时间：0.085283s] [吞吐率：11.73req/s] [内存消耗：2,069.80kb] [文件加载：43]
+[ error ] [0]类的属性不存在:app\api\model\User->userId[E:\xampp\htdocs\BaiPiao-PHP\thinkphp\library\think\Model.php:626]
+[ error ] property not exists:app\api\model\User->userId

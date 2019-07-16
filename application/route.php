@@ -37,6 +37,11 @@ use think\Route;
 
     //form 传参：videoType or videoTitle 
  Route::post('api/:version/videos','api/:version.Video/getNormalVideoByTypeorName');
+
+ //注册
+ Route::post('api/:version/register','api/:version.Login/register');
+ Route::get('api/:version/register','api/:version.Login/register');
+
  
 
 
