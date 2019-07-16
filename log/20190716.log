@@ -34,3 +34,15 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010326s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002839s ]
 [ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:41:34+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList/
+[运行时间：0.032929s] [吞吐率：30.37req/s] [内存消耗：1,851.46kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001015s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002836s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:41:37+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/videos
+[运行时间：0.030545s] [吞吐率：32.74req/s] [内存消耗：1,850.29kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004203s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1  AND `videoTitle` LIKE '%豪%' [ RunTime:0.001099s ]
