@@ -17,6 +17,9 @@ class Video{
     public function getNormalVideoByTypeorName(){
         $type=(input('videoType'))? input('videoType'):'';
         $name=(input('videoTitle'))? input('videoTitle'):'';
+        if(empty($type)&&empty($name)){
+            throw new ApiException('请传递分区或视频名称',404,20009);
+        }
         $res=(new modelVideo)->showByChoice($type,$name);
         if(!$res){
             throw new ApiException('相关视频不存在',404,20008);

@@ -11,6 +11,8 @@ class Video extends \think\Model{
             foreach($res as $k=>$v){
                 $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
                 $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
+                $v['videoPic']=ROOT_PATH.$v['videoPic'];
+                $res[$k]['videoPic']=str_replace("\\","/",$v['videoPic']);
             }
             return $res;
         }
@@ -22,6 +24,8 @@ class Video extends \think\Model{
             foreach($res as $k=>$v){
                 $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
                 $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
+                $v['videoPic']=ROOT_PATH.$v['videoPic'];
+                $res[$k]['videoPic']=str_replace("\\","/",$v['videoPic']);
             }
             return $res;
         }
@@ -32,6 +36,9 @@ class Video extends \think\Model{
         foreach($res as $k=>$v){
             $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
             $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
+
+            $v['videoPic']=ROOT_PATH.$v['videoPic'];
+            $res[$k]['videoPic']=str_replace("\\","/",$v['videoPic']);
         }
         return $res;
     }
