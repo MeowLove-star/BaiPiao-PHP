@@ -9,9 +9,9 @@ class Video extends \think\Model{
             $res=$this->where(['videoStatus'=>1,'videoType'=>$type])->select(); 
             $res=json_decode(json_encode($res),true);
             foreach($res as $k=>$v){
-                $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
+                $v['videoUrl']=root_path.$v['videoUrl'];
                 $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
-                $v['videoPic']=ROOT_PATH.$v['videoPic'];
+                $v['videoPic']=root_path.$v['videoPic'];
                 $res[$k]['videoPic']=str_replace("\\","/",$v['videoPic']);
             }
             return $res;
@@ -22,9 +22,9 @@ class Video extends \think\Model{
             $res=$this->where(['videoStatus'=>1])->where('videoTitle','like','%'.$name.'%')->select();
             $res=json_decode(json_encode($res),true);
             foreach($res as $k=>$v){
-                $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
+                $v['videoUrl']=root_path.$v['videoUrl'];
                 $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
-                $v['videoPic']=ROOT_PATH.$v['videoPic'];
+                $v['videoPic']=root_path.$v['videoPic'];
                 $res[$k]['videoPic']=str_replace("\\","/",$v['videoPic']);
             }
             return $res;
@@ -34,10 +34,10 @@ class Video extends \think\Model{
         $res=$this->where(['videoStatus'=>1])->limit($count)->page($page)->order('videoId desc')->select();
         $res=json_decode(json_encode($res),true);      
         foreach($res as $k=>$v){
-            $v['videoUrl']=ROOT_PATH.$v['videoUrl'];
+            $v['videoUrl']=root_path.$v['videoUrl'];
             $res[$k]['videoUrl']=str_replace("\\","/",$v['videoUrl']);
 
-            $v['videoPic']=ROOT_PATH.$v['videoPic'];
+            $v['videoPic']=root_path.$v['videoPic'];
             $res[$k]['videoPic']=str_replace("\\","/",$v['videoPic']);
         }
         return $res;

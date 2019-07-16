@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2019-07-16T10:48:18+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/picture/12.MP4
+[运行时间：0.036186s] [吞吐率：27.64req/s] [内存消耗：891.57kb] [文件加载：31]
+[ error ] module not exists:picture
+---------------------------------------------------------------
+[ 2019-07-16T10:48:26+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/picture/12.mp4
+[运行时间：0.019422s] [吞吐率：51.49req/s] [内存消耗：891.57kb] [文件加载：31]
+[ error ] module not exists:picture

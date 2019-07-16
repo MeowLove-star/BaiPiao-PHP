@@ -67,12 +67,15 @@ class Video{
         ]);
     }
     public function videoSave(){
+        //halt(root_path);
         if(request()->isPost()){
             //halt(ROOT_PATH);
             (new VideoCreate)->goCheck();
             $data=input('post.');
             $videoUrl=request()->file('videoUrl');
             $videoPic=request()->file('videoPic');
+            //'http://localhost/BaiPiao-PHP/public/api/v1/video/'
+            //http://localhost/BaiPiao-PHP/public/uploads/12.mp4
             $videoPicinfo = $videoPic->rule('')->move(ROOT_PATH . 'public' . DS . 'picture','');
             $videoUrlinfo = $videoUrl->rule('')->move(ROOT_PATH . 'public' . DS . 'uploads','');
             //halt($videoUrl->getPathname());
