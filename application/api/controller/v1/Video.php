@@ -7,12 +7,7 @@ use app\api\validate\VideoDeleteCheck;
 use app\api\validate\VideoCreate;
 use app\api\validate\VideoIdCheck;
 use app\api\model\Video as modelVideo;
-// 制定允许其他域名访问
-header("Access-Control-Allow-Origin:*");
-// 响应类型
-header('Access-Control-Allow-Methods:POST');
-// 响应头设置
-header('Access-Control-Allow-Headers:x-requested-with, content-type');
+
 class Video{
     public function getNormalVideoByTypeorName(){
         $type=(input('videoType'))? input('videoType'):'';
