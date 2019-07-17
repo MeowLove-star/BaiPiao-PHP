@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2019-07-17T15:33:49+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar
+[运行时间：0.018190s] [吞吐率：54.98req/s] [内存消耗：901.59kb] [文件加载：33]
+[ error ] controller not exists:app\api\controller\V1

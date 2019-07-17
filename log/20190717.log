@@ -36,3 +36,17 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010167s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007792s ]
 [ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = '郑' LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-07-17T15:53:57+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/1
+[运行时间：0.104537s] [吞吐率：9.57req/s] [内存消耗：2,137.70kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010132s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003119s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/haha.png'  WHERE  `userId` = 1 [ RunTime:0.051774s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 1 LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-07-17T15:54:35+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/5
+[运行时间：0.101856s] [吞吐率：9.82req/s] [内存消耗：2,137.65kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010036s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003297s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/haha.png'  WHERE  `userId` = 5 [ RunTime:0.050882s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 5 LIMIT 1 [ RunTime:0.000559s ]

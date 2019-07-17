@@ -33,4 +33,9 @@ class User extends \think\Model{
         $res['userPic']=root_path.$res['userPic'];
         return $res;
     }
+    public function avatarUpload($userId,$userPic){
+        $res=$this->where(['userId'=>$userId])->update(['userPic'=>$userPic]);
+        $res=json_decode(json_encode($res),true);
+        return $res;
+    }
 }

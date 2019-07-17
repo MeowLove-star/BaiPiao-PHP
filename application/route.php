@@ -42,6 +42,9 @@ use think\Route;
  Route::post('api/:version/register','api/:version.Login/register');
  Route::get('api/:version/register','api/:version.Login/register');
 
+ Route::post('api/:version/avatar/:userId','api/:version.Login/avatar');
+ Route::post('api/:version/avatar','api/:version.Login/avatar');
+
  
 
 

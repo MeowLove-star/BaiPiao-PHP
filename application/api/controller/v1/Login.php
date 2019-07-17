@@ -2,6 +2,7 @@
 namespace app\api\controller\v1;
 use app\lib\exception\ApiException;
 use app\api\validate\LoginCheck;
+use app\api\validate\UserIdCheck;
 use app\api\model\User;
 error_reporting(0);
 
@@ -43,5 +44,28 @@ class Login{
         }else{
             throw new ApiException('请使用post提交表单',404,10000);
         }       
+    }
+    public function avatar($userId=''){
+        (new UserIdCheck)->goCheck(); 
+        $userPic=request()->file('userPic');
+        if(!empty($userPic)){
+            $userPicinfo = $userPic->rule('')->move(ROOT_PATH . 'public' . DS . 'avatar','');
+            if(!$userPicinfo->getPathname()){
+                throw new ApiException('头像上传失败',201,20005);                 
+            }
+            $data['userPic']='public/avatar/'.$userPicinfo->getSavename();
+            $res=(new User)->avatarUpload($userId,$data['userPic']);
+            if(!$res){
+                throw new ApiException('没有该用户',201,20007); 
+            }
+            $data=(new User)->showUserMessage($userId);
+            return json([
+                'code'=>200,
+                'message'=>'success',
+                'data'=>$data,
+            ]);
+        }else{
+            throw new ApiException('请上传图片',201,20006);
+        }
     }
 }
