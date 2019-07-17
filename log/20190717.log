@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2019-07-17T10:45:45+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/login
+[运行时间：0.026499s] [吞吐率：37.74req/s] [内存消耗：1,970.39kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002421s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin75' LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2019-07-17T10:47:01+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/login
+[运行时间：0.037161s] [吞吐率：26.91req/s] [内存消耗：1,970.66kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001144s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002875s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin75' LIMIT 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-07-17T10:47:18+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/login
+[运行时间：0.062805s] [吞吐率：15.92req/s] [内存消耗：1,970.60kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010320s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003385s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin' LIMIT 1 [ RunTime:0.000996s ]
+---------------------------------------------------------------
+[ 2019-07-17T10:48:05+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/login
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：1,970.66kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010104s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004693s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin75' LIMIT 1 [ RunTime:0.000470s ]

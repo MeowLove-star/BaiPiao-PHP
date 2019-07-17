@@ -10,6 +10,7 @@ class User extends \think\Model{
             throw new ApiException('用户名错误',404,10001);
         }
         if($res['userPassword']==$data['userPassword']){
+            $res['userPic']=root_path.$res['userPic'];
             return $res;
         }else{
             throw new ApiException('密码错误',404,10002);
