@@ -22,3 +22,17 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010104s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004693s ]
 [ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = 'admin75' LIMIT 1 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2019-07-17T15:00:05+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/register
+[运行时间：0.100721s] [吞吐率：9.93req/s] [内存消耗：2,074.51kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010799s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004857s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = '郑' LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`userName` , `userPassword` , `userPic`) VALUES ('郑' , '78679495fe70bfa486d8aaff1a2e4aa9' , 'public/avatar/test.png') [ RunTime:0.047669s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 17 LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-07-17T15:00:42+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/login
+[运行时间：0.055903s] [吞吐率：17.89req/s] [内存消耗：1,971.34kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010167s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007792s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userName` = '郑' LIMIT 1 [ RunTime:0.000615s ]

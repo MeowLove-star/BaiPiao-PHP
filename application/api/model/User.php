@@ -9,7 +9,7 @@ class User extends \think\Model{
         if(!$res){
             throw new ApiException('用户名错误',404,10001);
         }
-        if($res['userPassword']==$data['userPassword']){
+        if($res['userPassword']==md5($data['userPassword'])){
             $res['userPic']=root_path.$res['userPic'];
             return $res;
         }else{
@@ -21,6 +21,7 @@ class User extends \think\Model{
         if($flag){
             throw new ApiException('用户名重复,请重新输入',404,10003);
         }
+        $data['userPassword']=md5($data['userPassword']);
         $res=$this->allowField(true)->create($data);
         $res=json_decode(json_encode($res),true);
         //halt($res);

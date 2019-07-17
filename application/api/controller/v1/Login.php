@@ -12,6 +12,7 @@ header('Access-Control-Allow-Methods:POST');
 header('Access-Control-Allow-Headers:x-requested-with, content-type');
 class Login{
     public function login(){
+        //halt(md5('haha'));
         if(request()->isPost()){
             (new LoginCheck)->goCheck();
             $data=input('post.');
