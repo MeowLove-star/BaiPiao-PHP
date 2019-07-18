@@ -4,9 +4,9 @@ use think\Exception;
 use think\Request;
 use app\lib\exception\ApiException;
 class BaseValidate extends \think\Validate{
-    protected $code=400;
+    protected $code=200;
     protected $msg;
-    protected $errorCode=10000;
+    protected $errorCode=777;
     public function goCheck(){
         $data=input(); 
         if(!$this->batch()->check($data)){

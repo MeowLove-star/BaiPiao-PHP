@@ -13,4 +13,4 @@
 
 error_reporting(0);
 
-define('root_path','http://localhost/BaiPiao-PHP/');
+define('root_path','http://localhost/BaiPiao-PHP/public/');

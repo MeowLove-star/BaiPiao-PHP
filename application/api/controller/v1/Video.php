@@ -62,17 +62,15 @@ class Video{
         ]);
     }
     public function videoSave(){
-        //halt(root_path);
         if(request()->isPost()){
-            //halt(ROOT_PATH);
             (new VideoCreate)->goCheck();
             $data=input('post.');
             $videoUrl=request()->file('videoUrl');
             $videoPic=request()->file('videoPic');
             //'http://localhost/BaiPiao-PHP/public/api/v1/video/'
             //http://localhost/BaiPiao-PHP/public/uploads/12.mp4
-            $videoPicinfo = $videoPic->rule('')->move(ROOT_PATH . 'public' . DS . 'picture','');
-            $videoUrlinfo = $videoUrl->rule('')->move(ROOT_PATH . 'public' . DS . 'uploads','');
+            $videoPicinfo = $videoPic->rule('date')->move(ROOT_PATH . 'public' . DS . 'picture');
+            $videoUrlinfo = $videoUrl->rule('date')->move(ROOT_PATH . 'public' . DS . 'uploads');
             //halt($videoUrl->getPathname());
             if(!$videoPicinfo->getPathname()){
                 throw new ApiException('视频封面上传失败',201,20005);                 
@@ -81,9 +79,9 @@ class Video{
                 throw new ApiException('视频上传失败',201,20006);                 
             }
             //halt($videoPicinfo->getSavename());
-            $data['videoPic']='public/picture/'.$videoPicinfo->getSavename();    
+            $data['videoPic']='picture/'.$videoPicinfo->getSavename();    
             //halt($data['videoPic']);
-            $data['videoUrl']='public/uploads/'.$videoUrlinfo->getSavename();
+            $data['videoUrl']='uploads/'.$videoUrlinfo->getSavename();
             $res=(new modelVideo)->VideoCreate($data);
             if(!$res){
                 throw new ApiException('视频发布失败',201,20007);

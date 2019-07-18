@@ -35,7 +35,10 @@ class User extends \think\Model{
     }
     public function avatarUpload($userId,$userPic){
         $res=$this->where(['userId'=>$userId])->update(['userPic'=>$userPic]);
-        $res=json_decode(json_encode($res),true);
+        //$res=json_decode(json_encode($res),true);
+
+        $res['userPic']=str_replace("\\","/",$res['userPic']);
+
         return $res;
     }
 }

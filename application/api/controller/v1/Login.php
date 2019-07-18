@@ -25,7 +25,7 @@ class Login{
             $data=input('post.');
             $userPic=request()->file('userPic');
             if(!empty($userPic)){
-                $userPicinfo = $userPic->rule('')->move(ROOT_PATH . 'public' . DS . 'avatar','');
+                $userPicinfo = $userPic->rule('date')->move(ROOT_PATH . 'public' . DS . 'avatar');
                 if(!$userPicinfo->getPathname()){
                     throw new ApiException('头像上传失败',201,20005);                 
                 }
@@ -49,11 +49,14 @@ class Login{
         (new UserIdCheck)->goCheck(); 
         $userPic=request()->file('userPic');
         if(!empty($userPic)){
-            $userPicinfo = $userPic->rule('')->move(ROOT_PATH . 'public' . DS . 'avatar','');
+            $userPicinfo = $userPic->rule('date')->move(ROOT_PATH . 'public' . DS . 'avatar');
             if(!$userPicinfo->getPathname()){
                 throw new ApiException('头像上传失败',201,20005);                 
             }
-            $data['userPic']='public/avatar/'.$userPicinfo->getSavename();
+            //$res['userPic']=str_replace("\\","/",$res['userPic']);
+            $name=$userPicinfo->getSavename();
+            $name=str_replace("\\","/",$name);
+            $data['userPic']='avatar/'.$name;
             $res=(new User)->avatarUpload($userId,$data['userPic']);
             if(!$res){
                 throw new ApiException('没有该用户',201,20007); 

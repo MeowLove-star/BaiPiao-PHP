@@ -9,16 +9,16 @@ class ExceptionHandler extends Handle{
     private $msg;
     private $errorCode;
     public function render(\Exception $e){
-        // if(config('app_debug')){
-        //     return parent::render($e);
-        // }   
+        if(config('app_debug')){
+            return parent::render($e);
+        }   
         if($e instanceof ApiException){
             $this->code=$e->code;
             $this->msg=$e->msg;
             $this->errorCode=$e->errorCode;
         }else{
             $this->code=500;
-            $this->msg='服务器内部错误';
+            $this->msg='an error occured';
             $this->errorCode=999;
             $this->recordErrorLog($e);
         }

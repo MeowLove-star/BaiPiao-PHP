@@ -50,3 +50,10 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003297s ]
 [ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/haha.png'  WHERE  `userId` = 5 [ RunTime:0.050882s ]
 [ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 5 LIMIT 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-07-17T16:51:49+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/4
+[运行时间：0.756668s] [吞吐率：1.32req/s] [内存消耗：2,137.65kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.602858s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/haha.png'  WHERE  `userId` = 4 [ RunTime:0.116367s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 LIMIT 1 [ RunTime:0.000594s ]

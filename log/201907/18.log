@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2019-07-18T11:25:32+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ error ] [0]语法解析错误: syntax error, unexpected '$count' (T_VARIABLE)
+[ error ] Parse error: syntax error, unexpected '$count' (T_VARIABLE)
+---------------------------------------------------------------
+[ 2019-07-18T11:34:41+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[ error ] [0]致命错误: Call to a member function rule() on null
+[ error ] Fatal error: Call to a member function rule() on null

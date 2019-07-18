@@ -1,0 +1,120 @@
+---------------------------------------------------------------
+[ 2019-07-18T09:07:23+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/2
+[运行时间：0.186914s] [吞吐率：5.35req/s] [内存消耗：2,137.64kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016284s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008219s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/haha.png'  WHERE  `userId` = 2 [ RunTime:0.050376s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 2 LIMIT 1 [ RunTime:0.001036s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:18:46+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[运行时间：0.116170s] [吞吐率：8.61req/s] [内存消耗：2,066.80kb] [文件加载：42]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000583s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002782s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoType` , `videoTitle` , `videoIntroduction` , `userId` , `videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('mv' , 'en' , '测试' , 3 , 'picture/haha.png' , 'uploads/movie.mp4' , 1563419926 , 1563419926) [ RunTime:0.059751s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:19:52+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[运行时间：0.035040s] [吞吐率：28.54req/s] [内存消耗：1,859.55kb] [文件加载：38]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010566s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002869s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:23:42+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[运行时间：0.049125s] [吞吐率：20.36req/s] [内存消耗：1,859.55kb] [文件加载：38]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010143s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004600s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:24:20+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[运行时间：0.044656s] [吞吐率：22.39req/s] [内存消耗：1,860.59kb] [文件加载：38]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009721s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.005268s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000845s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:26:16+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011594s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004242s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:34:23+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011493s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003405s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:34:54+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010684s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002919s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('picture/haha.png' , 'uploads/movie.mp4' , 1563420894 , 1563420894) [ RunTime:0.075103s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:35:39+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011402s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004054s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('picture/0d\\c19d1ea22c09681f76686d7838d5b5.png' , 'uploads/3c\\f571d4cf2a4c4b2df823a27852a7d5.mp4' , 1563420939 , 1563420939) [ RunTime:0.052062s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:36:18+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011187s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003371s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES ('picture/20190718\\9e3e024592e609a5e42fba4b9027d83b.png' , 'uploads/20190718\\d981d813b27515430755ff4406dfea3c.mp4' , 1563420978 , 1563420978) [ RunTime:0.054618s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:37:26+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016405s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004080s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:38:01+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010209s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003485s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:48:22+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011022s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002339s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/haha.png'  WHERE  `userId` = 6 [ RunTime:0.073985s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.000946s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:49:11+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010342s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002632s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/20190718\\cad63350a8abf4bc3421c02cdc7e3200.png'  WHERE  `userId` = 6 [ RunTime:0.072080s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.001076s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:49:43+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011225s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002885s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/20190718\\9c7b9db4ab83317de0fd4d65a76fa3da.png'  WHERE  `userId` = 6 [ RunTime:0.068760s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:50:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002393s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/20190718\\fdd78fde66f8160c37f523eb687e6ed2.png'  WHERE  `userId` = 6 [ RunTime:0.056392s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.000994s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:52:10+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010347s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002602s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/20190718\\e834da9558defb2e2106bbda60467edd.png'  WHERE  `userId` = 6 [ RunTime:0.064045s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.001028s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:52:35+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013448s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003914s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='public/avatar/20190718\\c10c2e8b876a9194c824c2bc4e4ba02f.png'  WHERE  `userId` = 6 [ RunTime:0.056336s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.000838s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:54:26+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011617s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='avatar/20190718\\ab50791b1c14ce82d26d03b86181a9f2.png'  WHERE  `userId` = 6 [ RunTime:0.086129s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.000970s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:57:37+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011077s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003203s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='avatar/20190718/fa6b0248950e9098a6cc616fdec839ce.png'  WHERE  `userId` = 6 [ RunTime:0.089533s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 6 LIMIT 1 [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2019-07-18T11:57:47+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/avatar/4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010897s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002709s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `userPic`='avatar/20190718/7a22e51e1d98334eb4af2df771c97716.png'  WHERE  `userId` = 4 [ RunTime:0.074839s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 LIMIT 1 [ RunTime:0.000445s ]
