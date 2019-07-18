@@ -45,6 +45,11 @@ use think\Route;
  Route::post('api/:version/avatar/:userId','api/:version.Login/avatar');
  Route::post('api/:version/avatar','api/:version.Login/avatar');
 
+ //评论
+ Route::post('api/:version/comment','api/:version.Comment/comment');
+
+
+
  
 
 
