@@ -49,6 +49,8 @@ class Video extends \think\Model{
     }
     public function videoCreate($data){
         //halt($data);
+        $data['videoUrl']=str_replace("\\","/",$data['videoUrl']);
+        $data['videoPic']=str_replace("\\","/",$data['videoPic']);
         $res=$this->allowField(true)->create($data);
         $res=json_decode(json_encode($res),true);
         return $res;

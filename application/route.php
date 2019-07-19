@@ -45,8 +45,11 @@ use think\Route;
  Route::post('api/:version/avatar/:userId','api/:version.Login/avatar');
  Route::post('api/:version/avatar','api/:version.Login/avatar');
 
- //评论
+ //上传评论
  Route::post('api/:version/comment','api/:version.Comment/comment');
+ //返回评论
+ Route::post('api/:version/comments/:videoId','api/:version.Comment/comments');
+ Route::post('api/:version/comments','api/:version.Comment/comments');
 
 
 

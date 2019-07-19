@@ -1,0 +1,256 @@
+---------------------------------------------------------------
+[ 2019-07-19T09:11:10+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030374s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003068s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:12:26+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010906s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002865s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:12:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001098s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.027090s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 1 , 'aa' , '1563498760') [ RunTime:0.067925s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:13:49+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002586s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 2 , 'aa' , 1563498829) [ RunTime:0.049219s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:19:00+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001190s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 2 , 'aa' , 1563499140) [ RunTime:0.062329s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:19:46+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010713s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003702s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 2 , '我叫总工会' , 1563499186) [ RunTime:0.059536s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:20:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011074s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002749s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 2 , '我叫总工会' , 1563499240) [ RunTime:0.066589s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:42:34+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[运行时间：0.107586s] [吞吐率：9.29req/s] [内存消耗：1,979.23kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010262s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004883s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 2 , '我叫总工会' , 1563500553) [ RunTime:0.053062s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:45:26+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[运行时间：0.155724s] [吞吐率：6.42req/s] [内存消耗：1,979.23kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010160s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004372s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (2 , 2 , '我叫总工会' , 1563500726) [ RunTime:0.101184s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:51:17+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010990s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004442s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (2 , 2 , '我叫总工会' , 1563501076) [ RunTime:0.058969s ]
+---------------------------------------------------------------
+[ 2019-07-19T09:51:27+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011099s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003230s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (2 , 2 , '我叫总工会' , 1563501087) [ RunTime:0.051446s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:02:06+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002465s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (2 , 2 , '我叫总工会' , 1563501726) [ RunTime:0.070043s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 10 LIMIT 1 [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007024s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 2 [ RunTime:0.000877s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:02:52+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010561s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002811s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (17 , 2 , '我叫总工会' , 1563501772) [ RunTime:0.045359s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 11 LIMIT 1 [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006954s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 17 [ RunTime:0.000867s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:05:24+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011357s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003926s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (17 , 2 , '我叫总工会' , 1563501924) [ RunTime:0.100752s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 12 LIMIT 1 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035098s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 17 [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.052780s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 2 [ RunTime:0.000982s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:06:14+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010648s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002849s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (17 , 17 , '我叫总工会' , 1563501974) [ RunTime:0.043472s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 13 LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003233s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 17 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004276s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 17 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:10:47+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010960s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002488s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:18:12+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013098s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.008565s ]
+[ sql ] [ SQL ] INSERT INTO `video` (`userId` , `videoPic` , `videoUrl` , `create_time` , `update_time`) VALUES (2 , 'picture/20190719/9246394ebc5e9ad0130d43def029e146.png' , 'uploads/20190719/79f613fabca154c377878c91b14ff7b3.png' , 1563502691 , 1563502691) [ RunTime:0.070251s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:18:40+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011007s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004102s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:18:59+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/getNormalVideoList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010817s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoStatus` = 1 ORDER BY `videoId` DESC LIMIT 0,20 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:19:32+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011467s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003857s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (17 , 17 , '我叫总工会' , 1563502772) [ RunTime:0.043872s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 14 LIMIT 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006940s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 17 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.007895s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 17 [ RunTime:0.000966s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:19:48+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000988s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002422s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (17 , 18 , '我叫总工会' , 1563502788) [ RunTime:0.068063s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 15 LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.026927s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 17 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.052075s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:22:45+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002476s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563502965) [ RunTime:0.095245s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 16 LIMIT 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007095s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.007105s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000957s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:29:08+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010444s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002586s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563503348) [ RunTime:0.062979s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 17 LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006097s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.006577s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:29:25+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011285s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002624s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563503364) [ RunTime:0.066586s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 18 LIMIT 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.053004s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.041574s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:33:03+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011088s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003267s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563503583) [ RunTime:0.058887s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 19 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003143s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002486s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:35:44+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011526s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004030s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563503744) [ RunTime:0.065531s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 20 LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007101s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.008029s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:38:20+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010514s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003109s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563503900) [ RunTime:0.059700s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 21 LIMIT 1 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005054s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003117s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:42:57+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012303s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.004135s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563504177) [ RunTime:0.052116s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 22 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.066699s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.030565s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.001047s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:44:04+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011398s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003063s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (4 , 18 , '我叫总工会' , 1563504244) [ RunTime:0.049037s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 23 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002667s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 4 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.002229s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:55:41+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011081s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003615s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (9 , 18 , '我叫总工会' , 1563504941) [ RunTime:0.048769s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 24 LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003440s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 9 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003385s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2019-07-19T10:55:52+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011427s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002772s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (5 , 18 , '我叫总工会6666' , 1563504951) [ RunTime:0.044171s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 25 LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004140s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 5 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004304s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2019-07-19T11:18:04+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003618s ]
+[ sql ] [ SQL ] INSERT INTO `comment` (`userId` , `videoId` , `comment` , `commentDate`) VALUES (5 , 18 , '我叫总工会6666' , 1563506284) [ RunTime:0.053550s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `commentId` = 26 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.058513s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userId` = 5 [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.006802s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `videoId` = 18 [ RunTime:0.001007s ]
+---------------------------------------------------------------
+[ 2019-07-19T11:34:54+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comments/17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002696s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `videoId` = 17 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-07-19T11:35:38+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comments/18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010627s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.003793s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `videoId` = 18 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2019-07-19T11:37:21+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comments/18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010267s ] mysql:host=127.0.0.1;dbname=www_baipiao_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.002554s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `videoId` = 18 ORDER BY `commentId` DESC [ RunTime:0.000305s ]

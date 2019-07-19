@@ -1,0 +1,31 @@
+---------------------------------------------------------------
+[ 2019-07-19T09:02:42+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ error ] [64]Cannot declare class app\api\controller\v1\Comment because the name is already in use
+[ error ] Cannot declare class app\api\controller\v1\Comment because the name is already in use
+---------------------------------------------------------------
+[ 2019-07-19T09:18:42+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'
+[ error ] Parse error: syntax error, unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2019-07-19T09:31:49+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comment
+[ error ] [0]method not exist:think\db\Query->create
+[ error ] method not exist:think\db\Query->create
+---------------------------------------------------------------
+[ 2019-07-19T10:17:19+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/video
+[ error ] [0]致命错误: Call to a member function rule() on null
+[ error ] Fatal error: Call to a member function rule() on null
+---------------------------------------------------------------
+[ 2019-07-19T10:33:24+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/avatar/20190718/7a22e51e1d98334eb4af2df771c97716.png
+[ error ] module not exists:avatar
+---------------------------------------------------------------
+[ 2019-07-19T10:43:44+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/avatar/20190718/7a22e51e1d98334eb4af2df771c97716.png
+[ error ] module not exists:avatar
+---------------------------------------------------------------
+[ 2019-07-19T11:18:26+08:00 ] 0.0.0.0 GET localhost/BaiPiao-PHP/public/api/v1/comment/1
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-19T11:21:00+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comments/1
+[ error ] controller not exists:app\api\controller\V1
+---------------------------------------------------------------
+[ 2019-07-19T11:26:12+08:00 ] 0.0.0.0 POST localhost/BaiPiao-PHP/public/api/v1/comments
+[ error ] controller not exists:app\api\controller\V1

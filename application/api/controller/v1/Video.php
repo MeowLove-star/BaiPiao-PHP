@@ -63,7 +63,7 @@ class Video{
     }
     public function videoSave(){
         if(request()->isPost()){
-            (new VideoCreate)->goCheck();
+            //(new VideoCreate)->goCheck();
             $data=input('post.');
             $videoUrl=request()->file('videoUrl');
             $videoPic=request()->file('videoPic');
